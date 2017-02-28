@@ -14,13 +14,8 @@ apps:
     command: webapp-launcher www/index.html
     plugs:
       - browser-sandbox
-      - camera
-      - mir
-      - network
-      - network-bind
       - opengl
-      - pulseaudio
-      - screen-inhibit-control
+      - network
       - unity7
 
 plugs:
