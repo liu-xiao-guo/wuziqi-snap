@@ -10,7 +10,7 @@ grade: stable
 confinement: devmode
 
 parts:
-  webapp:
+  webapp-container:
     after: [ webapp-helper, desktop-ubuntu-app-platform ]
     plugin: dump
     source: .

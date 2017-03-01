@@ -29,7 +29,7 @@ plugs:
     default-provider: ubuntu-app-platform
 
 parts:
-  webapp:
+  webapp-container:
     source: .
     plugin: dump
     after: [ webapp-helper, desktop-ubuntu-app-platform ]
